@@ -25,14 +25,14 @@ window.onscroll = () => {
       });
     }
   });
+
+  let header = document.querySelector("header");
+
+  header.classList.toggle("sticky", window.scrollY > 100);
+
+  menuIcon.classList.remove("bx-x");
+  navbar.classList.remove("active");
 };
-
-let header = document.querySelector("header");
-
-header.classList.toggle("sticky", window.scrollY > 100);
-
-menuIcon.classList.remove("bx-x");
-navbar.classList.remove("active");
 
 ScrollReveal({
   // reset: true,
@@ -43,7 +43,7 @@ ScrollReveal({
 
 ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
 ScrollReveal().reveal(
-  ".home-img, .services-container, .portfolio-box, .contact form",
+  ".home-img, .services-container, .protfolio-box, .contact form",
   { origin: "bottom" }
 );
 ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
