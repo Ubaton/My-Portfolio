@@ -11,6 +11,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+#more {
+  display: none;
+}
+
 :root {
   --bg-color: #1f242d;
   --second-bg-color: #323946;
