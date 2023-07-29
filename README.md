@@ -1,5 +1,5 @@
 # Portfolio Website - Raymond Ngobeni
-![Portfolio Screenshot](/html/images/portfolio_screenshot.png)
+![Portfolio Screenshot](https://github.com/Ubaton/My-Portfolio/blob/main/html/images/MyProtfolio.png)
 
 ## Description
 Welcome to my portfolio website! This project showcases my skills as a Full-stack Web Developer and Graphic Designer. The website is designed to provide visitors with an overview of my expertise, recent projects, and ways to get in touch with me.
