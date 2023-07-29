@@ -77,19 +77,3 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
-
-// Function to fetch the visitor count from the server
-async function fetchVisitorCount() {
-  try {
-    const response = await fetch("/api/visitorCount");
-    const data = await response.json();
-    const count = data.count;
-    // Update the count on your website
-    document.getElementById("visitorCount").textContent = count;
-  } catch (error) {
-    console.error("Error fetching visitor count:", error);
-  }
-}
-
-// Call the function to fetch and display the visitor count
-fetchVisitorCount();
