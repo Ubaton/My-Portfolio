@@ -51,7 +51,7 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 
 const typed = new Typed(".multiple-text", {
   strings: [
-    "Self-taught Full-stack Software Developer",
+    "Self-taught Full-stack Web Developer",
     "Backend Integrator",
     "Web Upgrades",
     "UI/UX Designer",
