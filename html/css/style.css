@@ -192,6 +192,61 @@ span {
   margin: 2rem 0 3rem;
 }
 
+.heading {
+  padding-bottom: 200px;
+}
+
+.carousel-container {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.carousel {
+  display: inline-block;
+  transition: transform 0.5s ease-in-out;
+  justify-content: flex-start;
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      -100%
+    ); /* Adjust this value based on your content width */
+  }
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel a {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.tech-stack {
+  overflow-x: hidden;
+  height: 200px;
+}
+
+.tech-stack .carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 1000px;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+
 .services h2 {
   margin-bottom: 5rem;
 }
