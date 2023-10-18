@@ -77,3 +77,13 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const menuIcon = document.getElementById("menu-icon");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  // Toggle the mobile menu when the menu icon is clicked
+  menuIcon.addEventListener("click", function () {
+    mobileMenu.classList.toggle("show-menu");
+  });
+});

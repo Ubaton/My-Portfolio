@@ -61,6 +61,29 @@ section {
   cursor: default;
 }
 
+.navbar {
+  display: none;
+}
+
+#menu-icon {
+  cursor: pointer;
+}
+
+/* Desktop Menu */
+.desktop-menu {
+  display: block;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  display: none;
+}
+
+/* Show the mobile menu */
+.mobile-menu.show-menu {
+  display: block;
+}
+
 .navbar a {
   font-size: 1.7rem;
   color: var(--text-color);
